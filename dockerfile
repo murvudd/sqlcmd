@@ -19,6 +19,5 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US.UTF-8' LC_ALL='en_US.UTF-8'
 # run echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
 # run echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 # run source ~/.bashrc
-# ENV PATH="$PATH:/opt/mssql-tools/bin"
-# run echo $PATH
+ENV PATH="$PATH:/opt/mssql-tools/bin"
 
